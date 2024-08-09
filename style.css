@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .cabecalho-imagem{
@@ -20,8 +20,8 @@ body {
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 30px;
-    font-size: 16px;
+    margin: 0 20px;
+    font-size: 10px;
 }
 
 .cabecalho-lista-item a{
@@ -30,17 +30,21 @@ body {
 }
 
 .escola-imagem{
-    width: 25%;
+    width: 10%;
+    margin: 0 120px;
+    font-size: 20px;
 }
 
 #escola{
     background-image: linear-gradient(#55aa39,#55aa39);
     color:white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+    justify-content: left;
     text-align: center;
+    padding: 90px 0;
+    font-family: ui-sans-serif;
+    flex-direction: row-reverse;
+    font-size: 20px;
 }
 
 .escola-div-conteudo{
@@ -82,9 +86,10 @@ body {
 }
 
 .rodape{
-    background-color: rgb(255, 255, 255);
+    background-color: #55aa39;
     text-align: center;
     padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .rodape-imagem{
